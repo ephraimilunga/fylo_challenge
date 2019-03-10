@@ -1,0 +1,105 @@
+$color: (
+  main_bg: hsl(218, 28%, 13%),
+  intro: hsl(217, 28%, 15%),
+  footer_bg: hsl(216, 53%, 9%),
+  testimonial_bg: hsl(219, 30%, 18%),
+  neutral: hsl(0, 0%, 100%),
+  cyan_bg: hsl(176, 68%, 64%)
+);
+
+@function color($colorName) {
+  @return map-get($color, $colorName);
+}
+
+%titleFontFamily {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+@mixin gradient {
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+}
+
+@mixin gradient_hover {
+  background-image: linear-gradient(
+    to top,
+    hsl(198, 60%, 50%),
+    hsl(176, 68%, 64%)
+  );
+}
+
+%mainTitleFont {
+  @extend %titleFontFamily;
+  line-height: 55px;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+%subTitle {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto 30px auto;
+}
+
+%callToAction {
+  border-radius: 50px;
+  padding: 17px 30px;
+  @include gradient();
+  cursor: pointer;
+}
+
+%mediumTitle_h3 {
+  font-size: 25px;
+}
+
+%flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flex_no_center {
+  display: flex;
+  align-items: center;
+}
+
+%section_margin_bottom {
+  padding-bottom: 150px;
+}
+
+%subText {
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+* {
+  color: color(neutral);
+  font-size: 14px;
+}
+
+body {
+  background-color: color(main_bg);
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+}
+
+div.main_wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+a:hover {
+  color: color(cyan_bg);
+}
+
+button:hover {
+  background-position: 51px;
+}

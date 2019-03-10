@@ -1,0 +1,1 @@
+<?php if(isset($_GET['securefolder']) AND !empty($_GET['securefolder'])) {} else { header('Location:https://ephraimilunga.co.za/fylo/');}?>
