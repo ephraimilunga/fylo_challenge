@@ -97,6 +97,12 @@ div.main_wrapper {
   margin: auto;
 }
 
+@media only screen and (min-width: 1367px) {
+  div.main_wrapper {
+    width: 1250px;
+  }
+}
+
 a:hover {
   color: #65e2d9;
 }
