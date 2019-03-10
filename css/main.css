@@ -2,15 +2,15 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 0;
   outline: 0;
   background: transparent;
   font-size: 100%;
   vertical-align: baseline;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  transition: all 0.7s ease;
+  cursor: none !important;
 }
 
 a {
@@ -22,11 +22,37 @@ ul {
   list-style: none;
 }
 
-main section.hero_section h1, main section.stay_productive div.main_wrapper div.productive_text_content h1.productive_main_title, main section.get_in_touch div.main_wrapper div.get_in_touch_container h3.get_in_touch_title, main section.features div.main_wrapper div.features_main_bloc div.features_row h3.feature_title {
+main section.hero_section h1,
+main
+  section.stay_productive
+  div.main_wrapper
+  div.productive_text_content
+  h1.productive_main_title,
+main
+  section.get_in_touch
+  div.main_wrapper
+  div.get_in_touch_container
+  h3.get_in_touch_title,
+main
+  section.features
+  div.main_wrapper
+  div.features_main_bloc
+  div.features_row
+  h3.feature_title {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-main section.hero_section h1, main section.stay_productive div.main_wrapper div.productive_text_content h1.productive_main_title, main section.get_in_touch div.main_wrapper div.get_in_touch_container h3.get_in_touch_title {
+main section.hero_section h1,
+main
+  section.stay_productive
+  div.main_wrapper
+  div.productive_text_content
+  h1.productive_main_title,
+main
+  section.get_in_touch
+  div.main_wrapper
+  div.get_in_touch_container
+  h3.get_in_touch_title {
   line-height: 55px;
   font-size: 35px;
   font-weight: 700;
@@ -39,12 +65,23 @@ main section.hero_section p.sub_title {
   margin: 0 auto 30px auto;
 }
 
-main section.hero_section button, main section.get_in_touch div.main_wrapper div.get_in_touch_container form button {
+main section.hero_section button,
+main
+  section.get_in_touch
+  div.main_wrapper
+  div.get_in_touch_container
+  form
+  button {
   border-radius: 50px;
   padding: 17px 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#65e2d9),
+    to(#339ecc)
+  );
   background-image: linear-gradient(to right, #65e2d9, #339ecc);
-  cursor: pointer;
 }
 
 main section.stay_productive div.main_wrapper div.productive_image {
@@ -52,27 +89,49 @@ main section.stay_productive div.main_wrapper div.productive_image {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-main section.stay_productive div.main_wrapper div.productive_text_content a.productive_link, main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info, main section.get_in_touch div.main_wrapper div.get_in_touch_container form, footer.footer div.main_wrapper div.footer_features div.footer_bloc_contact_info div.footer_contact, footer.footer div.main_wrapper div.footer_features div.footer_useful_links {
+main
+  section.stay_productive
+  div.main_wrapper
+  div.productive_text_content
+  a.productive_link,
+main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info,
+main section.get_in_touch div.main_wrapper div.get_in_touch_container form,
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.footer_bloc_contact_info
+  div.footer_contact,
+footer.footer div.main_wrapper div.footer_features div.footer_useful_links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-main section.features, main section.stay_productive {
+main section.features,
+main section.stay_productive {
   padding-bottom: 150px;
 }
 
-main section.stay_productive div.main_wrapper div.productive_text_content p.productive_text, main section.get_in_touch div.main_wrapper div.get_in_touch_container p.get_in_touch_text {
+main
+  section.stay_productive
+  div.main_wrapper
+  div.productive_text_content
+  p.productive_text,
+main
+  section.get_in_touch
+  div.main_wrapper
+  div.get_in_touch_container
+  p.get_in_touch_text {
   font-size: 14px;
   margin-bottom: 15px;
   line-height: 25px;
@@ -86,6 +145,7 @@ main section.stay_productive div.main_wrapper div.productive_text_content p.prod
 body {
   background-color: #181f2a;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 section {
@@ -124,8 +184,8 @@ main nav div.main_wrapper {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 40px 0 10px 0;
 }
 
@@ -245,8 +305,8 @@ main section.features div.main_wrapper div.features_main_bloc {
   display: -ms-grid;
   display: grid;
   grid-gap: 70px;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
 }
 
 main section.features div.main_wrapper div.features_main_bloc div.features_row {
@@ -254,27 +314,52 @@ main section.features div.main_wrapper div.features_main_bloc div.features_row {
   text-align: center;
 }
 
-main section.features div.main_wrapper div.features_main_bloc div.features_row img.feature_icon {
+main
+  section.features
+  div.main_wrapper
+  div.features_main_bloc
+  div.features_row
+  img.feature_icon {
   margin-bottom: 20px;
 }
 
-main section.features div.main_wrapper div.features_main_bloc div.features_row h3.feature_title {
+main
+  section.features
+  div.main_wrapper
+  div.features_main_bloc
+  div.features_row
+  h3.feature_title {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 9px;
 }
 
-main section.features div.main_wrapper div.features_main_bloc div.features_row p.feature_text {
+main
+  section.features
+  div.main_wrapper
+  div.features_main_bloc
+  div.features_row
+  p.feature_text {
   font-size: 14px;
   line-height: 20px;
 }
 
 @media only screen and (max-width: 550px) {
-  main section.features div.main_wrapper div.features_main_bloc div.features_row h3.feature_title {
+  main
+    section.features
+    div.main_wrapper
+    div.features_main_bloc
+    div.features_row
+    h3.feature_title {
     font-size: 18px;
     margin-bottom: 12px;
   }
-  main section.features div.main_wrapper div.features_main_bloc div.features_row p.feature_text {
+  main
+    section.features
+    div.main_wrapper
+    div.features_main_bloc
+    div.features_row
+    p.feature_text {
     font-size: 13.5px;
     line-height: 22px;
   }
@@ -296,8 +381,8 @@ main section.features div.main_wrapper div.features_main_bloc div.features_row p
 @media only screen and (max-width: 550px) {
   main section.features div.main_wrapper div.features_main_bloc {
     width: 100%;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 70px;
   }
 }
@@ -311,15 +396,15 @@ main section.stay_productive div.main_wrapper {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main section.stay_productive div.main_wrapper div.productive_image,
 main section.stay_productive div.main_wrapper div.productive_text_content {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 main section.stay_productive div.main_wrapper div.productive_image img {
@@ -330,20 +415,33 @@ main section.stay_productive div.main_wrapper div.productive_text_content {
   padding: 40px 80px 40px 60px;
 }
 
-main section.stay_productive div.main_wrapper div.productive_text_content h1.productive_main_title {
+main
+  section.stay_productive
+  div.main_wrapper
+  div.productive_text_content
+  h1.productive_main_title {
   width: 80%;
   margin-bottom: 20px;
   line-height: 47px;
 }
 
-main section.stay_productive div.main_wrapper div.productive_text_content a.productive_link {
+main
+  section.stay_productive
+  div.main_wrapper
+  div.productive_text_content
+  a.productive_link {
   border-bottom: 1px solid #65e2d9;
   width: 149px;
   padding-bottom: 5px;
   margin-top: 30px;
 }
 
-main section.stay_productive div.main_wrapper div.productive_text_content a.productive_link span.productive_link_text {
+main
+  section.stay_productive
+  div.main_wrapper
+  div.productive_text_content
+  a.productive_link
+  span.productive_link_text {
   margin-right: 10px;
   color: #65e2d9;
 }
@@ -352,7 +450,11 @@ main section.stay_productive div.main_wrapper div.productive_text_content a.prod
   main section.stay_productive div.main_wrapper div.productive_text_content {
     padding: 40px 5px 40px 60px;
   }
-  main section.stay_productive div.main_wrapper div.productive_text_content h1.productive_main_title {
+  main
+    section.stay_productive
+    div.main_wrapper
+    div.productive_text_content
+    h1.productive_main_title {
     width: 90%;
     margin-bottom: 20px;
     line-height: 47px;
@@ -363,7 +465,11 @@ main section.stay_productive div.main_wrapper div.productive_text_content a.prod
   main section.stay_productive div.main_wrapper div.productive_text_content {
     padding: 40px 0 40px 20px;
   }
-  main section.stay_productive div.main_wrapper div.productive_text_content h1.productive_main_title {
+  main
+    section.stay_productive
+    div.main_wrapper
+    div.productive_text_content
+    h1.productive_main_title {
     margin-bottom: 20px;
     line-height: 47px;
   }
@@ -373,11 +479,19 @@ main section.stay_productive div.main_wrapper div.productive_text_content a.prod
   main section.stay_productive div.main_wrapper div.productive_text_content {
     padding: 40px 5px 40px 10px;
   }
-  main section.stay_productive div.main_wrapper div.productive_text_content h1.productive_main_title {
+  main
+    section.stay_productive
+    div.main_wrapper
+    div.productive_text_content
+    h1.productive_main_title {
     font-size: 26px;
     line-height: 35px;
   }
-  main section.stay_productive div.main_wrapper div.productive_text_content p.productive_text {
+  main
+    section.stay_productive
+    div.main_wrapper
+    div.productive_text_content
+    p.productive_text {
     line-height: 25px;
   }
 }
@@ -386,8 +500,8 @@ main section.stay_productive div.main_wrapper div.productive_text_content a.prod
   main section.stay_productive div.main_wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -401,8 +515,8 @@ main section.testimonials div.main_wrapper {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
 }
 
 main section.testimonials div.main_wrapper img.testimonials_quote {
@@ -420,12 +534,21 @@ main section.testimonials div.main_wrapper div.testimonials_bloc {
   position: relative;
 }
 
-main section.testimonials div.main_wrapper div.testimonials_bloc p.testimonials_text {
+main
+  section.testimonials
+  div.main_wrapper
+  div.testimonials_bloc
+  p.testimonials_text {
   line-height: 23px;
   margin-bottom: 25px;
 }
 
-main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info img.user_profile {
+main
+  section.testimonials
+  div.main_wrapper
+  div.testimonials_bloc
+  div.user_info
+  img.user_profile {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -437,17 +560,35 @@ main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info i
   border-right: 2px solid transparent;
 }
 
-main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info div.user_name_title p.user_name {
+main
+  section.testimonials
+  div.main_wrapper
+  div.testimonials_bloc
+  div.user_info
+  div.user_name_title
+  p.user_name {
   font-weight: 600;
 }
 
 @media only screen and (max-width: 650px) {
-  main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info div.user_name_title p.user_name {
+  main
+    section.testimonials
+    div.main_wrapper
+    div.testimonials_bloc
+    div.user_info
+    div.user_name_title
+    p.user_name {
     font-size: 13px;
   }
 }
 
-main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info div.user_name_title span.user_title {
+main
+  section.testimonials
+  div.main_wrapper
+  div.testimonials_bloc
+  div.user_info
+  div.user_name_title
+  span.user_title {
   font-size: 10px;
   color: #65e2d9;
 }
@@ -463,7 +604,11 @@ main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info d
     margin-top: 25px;
     padding: 30px 20px 15px 20px;
   }
-  main section.testimonials div.main_wrapper div.testimonials_bloc p.testimonials_text {
+  main
+    section.testimonials
+    div.main_wrapper
+    div.testimonials_bloc
+    p.testimonials_text {
     line-height: 27px;
     margin-bottom: 25px;
   }
@@ -478,8 +623,8 @@ main section.testimonials div.main_wrapper div.testimonials_bloc div.user_info d
 @media only screen and (max-width: 650px) {
   main section.testimonials div.main_wrapper {
     grid-gap: 0px;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
   }
   main section.testimonials div.main_wrapper img.testimonials_quote {
     width: 50px;
@@ -506,15 +651,23 @@ main section.get_in_touch div.main_wrapper div.get_in_touch_container {
   text-align: center;
   border-radius: 4px;
   -webkit-box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.175);
-          box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.175);
 }
 
-main section.get_in_touch div.main_wrapper div.get_in_touch_container h3.get_in_touch_title {
+main
+  section.get_in_touch
+  div.main_wrapper
+  div.get_in_touch_container
+  h3.get_in_touch_title {
   margin-bottom: 20px;
   line-height: 47px;
 }
 
-main section.get_in_touch div.main_wrapper div.get_in_touch_container p.get_in_touch_text {
+main
+  section.get_in_touch
+  div.main_wrapper
+  div.get_in_touch_container
+  p.get_in_touch_text {
   width: 80%;
   margin: auto;
   margin-bottom: 30px;
@@ -522,11 +675,16 @@ main section.get_in_touch div.main_wrapper div.get_in_touch_container p.get_in_t
 
 main section.get_in_touch div.main_wrapper div.get_in_touch_container form {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-main section.get_in_touch div.main_wrapper div.get_in_touch_container form input {
+main
+  section.get_in_touch
+  div.main_wrapper
+  div.get_in_touch_container
+  form
+  input {
   background-color: white;
   width: 60%;
   padding: 17px 30px;
@@ -539,18 +697,33 @@ main section.get_in_touch div.main_wrapper div.get_in_touch_container form input
   main section.get_in_touch div.main_wrapper div.get_in_touch_container form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
-  main section.get_in_touch div.main_wrapper div.get_in_touch_container form input,
-  main section.get_in_touch div.main_wrapper div.get_in_touch_container form button {
+  main
+    section.get_in_touch
+    div.main_wrapper
+    div.get_in_touch_container
+    form
+    input,
+  main
+    section.get_in_touch
+    div.main_wrapper
+    div.get_in_touch_container
+    form
+    button {
     width: 100%;
     margin: auto;
   }
-  main section.get_in_touch div.main_wrapper div.get_in_touch_container form input {
+  main
+    section.get_in_touch
+    div.main_wrapper
+    div.get_in_touch_container
+    form
+    input {
     margin-bottom: 27px;
   }
 }
@@ -568,11 +741,19 @@ main section.get_in_touch div.main_wrapper div.get_in_touch_container form input
 }
 
 @media only screen and (max-width: 550px) {
-  main section.get_in_touch div.main_wrapper div.get_in_touch_container h3.get_in_touch_title {
+  main
+    section.get_in_touch
+    div.main_wrapper
+    div.get_in_touch_container
+    h3.get_in_touch_title {
     font-size: 26px;
     line-height: 38px;
   }
-  main section.get_in_touch div.main_wrapper div.get_in_touch_container p.get_in_touch_text {
+  main
+    section.get_in_touch
+    div.main_wrapper
+    div.get_in_touch_container
+    p.get_in_touch_text {
     width: 100%;
     line-height: 25px;
   }
@@ -594,8 +775,8 @@ footer.footer div.main_wrapper div.footer_features {
   display: -ms-grid;
   display: grid;
   grid-gap: 40px;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr) [4];
+  grid-template-columns: repeat(4, 1fr);
   margin: 30px 0 80px 0;
 }
 
@@ -604,24 +785,36 @@ footer.footer div.main_wrapper div.footer_features div.footer_company_bloc {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   width: 400px;
 }
 
-footer.footer div.main_wrapper div.footer_features div.footer_company_bloc img.location_icon {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.footer_company_bloc
+  img.location_icon {
   width: 30px;
   height: 20px;
   margin-right: 10px;
 }
 
 @media only screen and (max-width: 550px) {
-  footer.footer div.main_wrapper div.footer_features div.footer_company_bloc img.location_icon {
+  footer.footer
+    div.main_wrapper
+    div.footer_features
+    div.footer_company_bloc
+    img.location_icon {
     margin-right: 25px;
   }
 }
 
-footer.footer div.main_wrapper div.footer_features div.footer_company_bloc p.company_intro {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.footer_company_bloc
+  p.company_intro {
   line-height: 20px;
 }
 
@@ -637,27 +830,46 @@ footer.footer div.main_wrapper div.footer_features div.footer_company_bloc p.com
   }
 }
 
-footer.footer div.main_wrapper div.footer_features div.footer_bloc_contact_info div.footer_contact {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.footer_bloc_contact_info
+  div.footer_contact {
   margin-bottom: 22px;
 }
 
-footer.footer div.main_wrapper div.footer_features div.footer_bloc_contact_info div.footer_contact img {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.footer_bloc_contact_info
+  div.footer_contact
+  img {
   margin-right: 20px;
 }
 
 footer.footer div.main_wrapper div.footer_features div.footer_useful_links {
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
-footer.footer div.main_wrapper div.footer_features div.footer_useful_links div.useful_link_container {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.footer_useful_links
+  div.useful_link_container {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
-footer.footer div.main_wrapper div.footer_features div.footer_useful_links div.useful_link_container ul li {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.footer_useful_links
+  div.useful_link_container
+  ul
+  li {
   margin-bottom: 15px;
 }
 
@@ -665,8 +877,8 @@ footer.footer div.main_wrapper div.footer_features div.footer_useful_links div.u
   footer.footer div.main_wrapper div.footer_features div.footer_useful_links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -674,8 +886,8 @@ footer.footer div.main_wrapper div.footer_features div.footer_useful_links div.u
   footer.footer div.main_wrapper div.footer_features div.footer_useful_links {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 
@@ -683,8 +895,8 @@ footer.footer div.main_wrapper div.footer_features div.footer_useful_links div.u
   footer.footer div.main_wrapper div.footer_features div.footer_useful_links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -693,41 +905,64 @@ footer.footer div.main_wrapper div.footer_features div.social_network {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
-footer.footer div.main_wrapper div.footer_features div.social_network :first-child {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.social_network
+  :first-child {
   margin-right: 12px;
 }
 
-footer.footer div.main_wrapper div.footer_features div.social_network :last-child {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.social_network
+  :last-child {
   margin-left: 12px;
 }
 
 footer.footer div.main_wrapper div.footer_features div.social_network img {
-  cursor: pointer;
   border-radius: 50%;
 }
 
-footer.footer div.main_wrapper div.footer_features div.social_network img:hover {
+footer.footer
+  div.main_wrapper
+  div.footer_features
+  div.social_network
+  img:hover {
   background-color: #65e2d9;
 }
 
 @media only screen and (max-width: 1060px) {
-  footer.footer div.main_wrapper div.footer_features div.social_network :first-child {
+  footer.footer
+    div.main_wrapper
+    div.footer_features
+    div.social_network
+    :first-child {
     margin-right: 5px;
   }
-  footer.footer div.main_wrapper div.footer_features div.social_network :last-child {
+  footer.footer
+    div.main_wrapper
+    div.footer_features
+    div.social_network
+    :last-child {
     margin-left: 5px;
   }
 }
 
 @media only screen and (max-width: 890px) {
-  footer.footer div.main_wrapper div.footer_features div.social_network :last-child {
+  footer.footer
+    div.main_wrapper
+    div.footer_features
+    div.social_network
+    :last-child {
     margin-right: auto;
   }
 }
@@ -735,28 +970,32 @@ footer.footer div.main_wrapper div.footer_features div.social_network img:hover 
 @media only screen and (max-width: 550px) {
   footer.footer div.main_wrapper div.footer_features div.social_network {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  footer.footer div.main_wrapper div.footer_features div.social_network :last-child {
+  footer.footer
+    div.main_wrapper
+    div.footer_features
+    div.social_network
+    :last-child {
     margin-right: 0;
   }
 }
 
 @media only screen and (max-width: 890px) {
   footer.footer div.main_wrapper div.footer_features {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 550px) {
   footer.footer div.main_wrapper div.footer_features {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -779,6 +1018,49 @@ footer.footer div.main_wrapper p.attribution a {
 @media only screen and (max-width: 400px) {
   footer.footer {
     padding: 350px 0 20px 0;
+  }
+}
+
+.mouse {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 3px solid #65e2d9;
+  z-index: 9999999;
+}
+
+.bounce::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: -8px;
+  top: -8px;
+  position: absolute;
+  border: 5px solid hsla(176, 68%, 64%, 0.525);
+  animation: flow 1.4s ease infinite;
+}
+
+.inactive {
+  margin-top: 40px;
+  width: 10px;
+  height: 10px;
+  transition: all 0.7s ease;
+}
+
+@keyframes flow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+    border-color: hsl(198, 60%, 50%);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 /*# sourceMappingURL=main.css.map */
